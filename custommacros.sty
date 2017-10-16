@@ -1,0 +1,16 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{custommacros}[2017/10/16 v0.1 Custom macros and helpers]
+
+\RequirePackage{xcolor}
+\RequirePackage{graphicx}
+\RequirePackage{url}
+
+\newcommand{\todo}[1][To be updated later!]{{\color{red} TODO: {#1}}}
+
+\makeatletter
+\def\app@exe{\immediate\write18}
+\def\inputAllFiles#1{%
+  \app@exe{ls #1/*.tex | xargs cat >> #1/\jobname.tmp}%
+  \InputIfFileExists{#1/\jobname.tmp}{}
+  \AtEndDocument{\app@exe{rm -f #1/\jobname.tmp}}}
+\makeatother
