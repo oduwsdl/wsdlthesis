@@ -17,7 +17,7 @@
 \makeatother
 
 %%% This macro is a drop in replacement for \includegraphics that ensures the images
-%%% aspect ration is maintained when changing its width, height or scale 
+%%% aspect ratio is maintained when changing its width, height or scale 
 %%% Usage \imageKeepAspect[keyvals]{imagePath}
 \NewDocumentCommand{\imageKeepAspect}{+O{width=\textwidth,height=\textheight}+m}{%
 	\includegraphics[#1,keepaspectratio]{#2}
