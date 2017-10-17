@@ -79,6 +79,12 @@ Task         | Description
 `make clean` | Remove all intermediate files and the `main.pdf`
 `make save`  | Save a timestamped copy of `main.pdf` under `./revisions` folder
 
+
+### Building Using A Shell Script
+
+The shell file `build.sh` is also included and mirrors the commands (functionality) of the make file
+
+
 ## Using Docker
 
 ***[TODO: Add a Dockerfile and corresponding instructions.]***
