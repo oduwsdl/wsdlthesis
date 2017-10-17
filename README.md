@@ -11,7 +11,7 @@ This repository contains:
 
 ## Getting Started
 
-[Install necessary LaTeX](https://help.ubuntu.com/community/LaTeX) distribution or use [Docker](https://docs.docker.com/engine/installation/).
+[Install necessary LaTeX](https://en.wikibooks.org/wiki/LaTeX/Installation) distribution or use [Docker](https://docs.docker.com/engine/installation/).
 Then follow these steps:
 
 ```
