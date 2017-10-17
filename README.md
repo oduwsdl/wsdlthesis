@@ -47,7 +47,7 @@ $ make
 
 The repository is preloaded with `Introduction`, `Background`, and `Related Work` chapters under the `./chapters` folder.
 We use a specific naming convention for chapter files like `01_introduction.tex` and `02_background.tex`.
-Numeric prefix here makes it easy to include these files automatically in the desired order, while the chapter name helps quickly open the desired file for modifications.
+Numeric prefix here makes it easy to include these files automatically in the desired order, while the chapter name helps to quickly open the desired file for modifications.
 Start with modifying the content of the existing chapters and add more chapter files with the same naming convention as necessary.
 
 A similar file naming convention is used for the appendix chapters that are located under the `./appendices` folder.
@@ -60,7 +60,7 @@ In most cases, adding more entries in the bib file, as needed, would be sufficie
 
 ### Adding Figures
 
-A folder named `./figures` is specified to place ass the figures.
+A folder named `./figures` is specified as a place to store the figures.
 Additionally, `\graphicspath` is set to this folder in the `config.tex` file so that figures can be added in the document just by using their names rather than a relative or absolute path.
 
 ### Adding Listings
