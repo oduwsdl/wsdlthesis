@@ -1,6 +1,6 @@
 % This class is adopted from a, now defunct, package named, "ODUthesis",
 % originally written by Dr. J. W. Van Orden, Professor, Department of Physics.
-% The class file is ressurected and heavioly modified by the
+% The class file is resurrected and heavily modified by the
 % Web Science and Digital Libraries (WS-DL) Research Group, Department of Computer Science
 % to suit their needs.
 % While this class can be used by any ODU graduate student, it may be more suitable for
