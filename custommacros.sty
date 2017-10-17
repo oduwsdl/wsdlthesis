@@ -4,6 +4,7 @@
 \RequirePackage{xcolor}
 \RequirePackage{graphicx}
 \RequirePackage{url}
+\RequirePackage{xparse}
 
 \newcommand{\todo}[1][To be updated later!]{{\color{red} TODO: {#1}}}
 
@@ -14,3 +15,10 @@
   \InputIfFileExists{#1/\jobname.tmp}{}
   \AtEndDocument{\app@exe{rm -f #1/\jobname.tmp}}}
 \makeatother
+
+%%% This macro is a drop in replacement for \includegraphics that ensures the images
+%%% aspect ratio is maintained when changing its width, height or scale 
+%%% Usage \imageKeepAspect[keyvals]{imagePath}
+\NewDocumentCommand{\imageKeepAspect}{+O{width=\textwidth,height=\textheight}+m}{%
+	\includegraphics[#1,keepaspectratio]{#2}
+}
