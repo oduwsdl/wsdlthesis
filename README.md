@@ -1,7 +1,7 @@
 # ODU WS-DL Thesis/Dissertation LaTeX Template
 
 This is a ready to use ODU thesis/dissertation LaTeX template, both for Master and PhD, tailored to suit the needs of the [WS-DL Research Group](https://ws-dl.cs.odu.edu/).
-The template is based on [the Old Dominion University Guide for the Preparation of These and Dissertation](https://www.odu.edu/content/dam/odu/offices/graduate-studies/thesis-dissertation/docs/thesis_dissertation_guide.pdf) *(last updated: November 2015)*.
+The template is based on [the Old Dominion University Guide for the Preparation of Theses and Dissertation](https://www.odu.edu/content/dam/odu/offices/graduate-studies/thesis-dissertation/docs/thesis_dissertation_guide.pdf) *(last updated: November 2015)*.
 This repository contains:
 
 * a LaTeX class named, `wsdlthesis`
