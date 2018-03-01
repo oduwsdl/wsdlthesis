@@ -119,7 +119,7 @@
 
 % FRW  fix for 2e over 2.09
 \def\signline#1{\\
-                \rule{2.5in}{0.5pt}\\
+                %\rule{2.5in}{0.5pt}\\ % Signature lines are no longer needed
                  {\small #1} \\}
 
 \def\@member{}
