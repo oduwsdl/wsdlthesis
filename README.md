@@ -81,7 +81,41 @@ Task         | Description
 
 ## Using Docker
 
-***[TODO: Add a Dockerfile and corresponding instructions.]***
+To avoid installing LaTeX and other dependencies on a host machine one can use official `oduwsdl/wsdlthesis` Docker image.
+
+```
+$ docker image pull oduwsdl/wsdlthesis
+```
+
+Alternatively, an image can be built locally as the repository includes a `Dockerfile`.
+
+```
+$ docker image build -t oduwsdl/wsdlthesis .
+```
+
+**Note:** This is a big image (>5GB) as it includes `texlive-full` package along with some other dependencies, hence, both pulling it from the DockerHub or building locally may take a significant amount of time and disk space.
+
+Once the image is locally available, either by pulling from DockerHub or building locally, run the following command from the source directory to compile the code.
+By virtue of mounting current working directory inside the container at `/src`, build artifacts such as `main.pdf` will be available in the current directory.
+
+```
+$ docker container run --rm -it -v $PWD:/src oduwsdl/wsdlthesis
+```
+
+The default command in the image is set to `make`, which can be overridden to anything as illustrated below.
+
+```
+$ docker container run --rm -it -v $PWD:/src oduwsdl/wsdlthesis make save
+```
+
+To further simplify these long commands, the repository provides a wrapper Shell script `runindocker.sh`.
+The script also ensures that the container runs with the appropriate UID and GID to avoid any file permission issues in build artifacts.
+The above two commands can be executed using this script as illustrated below.
+
+```
+$ ./runindocker.sh
+$ ./runindocker.sh make save
+```
 
 ## Macros
 
