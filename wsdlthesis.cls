@@ -289,13 +289,8 @@
 \def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
                          \refstepcounter{chapter}%
                          \typeout{\@chapapp\space\thechapter}%
-                          \IfStrEq{\@chapapp}{APPENDIX}{%
-			     \addcontentsline{toc}{section}%
-			     {\protect\numberline{\thechapter.}\uppercase{#1}}%
-			   {%
-			    \addcontentsline{toc}{chapter}%
-			    {\protect\numberline{\thechapter.}\uppercase{#1}}%
-			  }
+                        \addcontentsline{toc}{chapter}%
+                        {\protect\numberline{\thechapter.}\uppercase{#1}}%
                     \else
                       \addcontentsline{toc}{chapter}{\uppercase{#1}}%
                     \fi
