@@ -13,7 +13,7 @@
 % (as per the guide last updated in November 2015).
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{wsdlthesis}[2017/10/16 v0.1 ODU WS-DL Thesis/Dissertation Template]
+\ProvidesClass{wsdlthesis}[2018/07/17 v0.2 ODU WS-DL Thesis/Dissertation Template]
 
 \LoadClass[12pt,fleqn]{report}
 
