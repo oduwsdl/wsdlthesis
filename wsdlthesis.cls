@@ -10,7 +10,7 @@
 % The formatting of this class corresponds to
 % "The Old Dominion University Guide for the Preparation of These and Dissertation",
 % https://www.odu.edu/content/dam/odu/offices/graduate-studies/thesis-dissertation/docs/thesis_dissertation_guide.pdf
-% (as per the guide last updated in November 2015).
+% (as per the guide last updated in May 2018).
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{wsdlthesis}[2018/07/17 v0.2 ODU WS-DL Thesis/Dissertation Template]
