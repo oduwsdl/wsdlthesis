@@ -37,14 +37,14 @@
 \setlength{\voffset}{-0.5in}
 \marginparwidth 40pt \marginparsep 10pt
 \topmargin 0in \headsep .31in
-\textheight 8.94in \textwidth 5.96in
+\textheight 8.94in \textwidth 6.46in
 \brokenpenalty=10000
 
-\oddsidemargin 0.50in
+\oddsidemargin 0.0in
 \if@twoside
   \evensidemargin 0.0in
 \else
-  \evensidemargin 0.50in
+  \evensidemargin 0.0in
 \fi
 
 \textfloatsep  40pt plus 2pt minus 4pt
