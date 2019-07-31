@@ -8,9 +8,9 @@ RVDIR=./revisions/
 all: clean build clear
 
 build:
-	$(LATEX) -shell-escape $(MAIN).tex
+	$(LATEX) -shell-escape -draftmode $(MAIN).tex
 	$(BIBTEX) $(MAIN)
-	$(LATEX) -shell-escape $(MAIN).tex
+	$(LATEX) -shell-escape -draftmode $(MAIN).tex
 	$(LATEX) -shell-escape $(MAIN).tex
 
 clean:
