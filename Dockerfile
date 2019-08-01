@@ -1,10 +1,11 @@
-FROM debian:stretch
+FROM debian:buster
 
 LABEL maintainer=<@WebSciDL>
 
 WORKDIR /src
 
 RUN apt update && apt-get install -y \
+      dumb-init \
       git \
       make \
       python-pygments \
@@ -13,4 +14,5 @@ RUN apt update && apt-get install -y \
 
 COPY . /src
 
+ENTRYPOINT ["dumb-init", "--"]
 CMD ["make"]
