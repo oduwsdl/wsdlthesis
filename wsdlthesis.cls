@@ -57,7 +57,7 @@
 
 \def\cl@chapter{\@elt{section}\@elt{footnote}}
 \def\thefigure{\@arabic\c@figure}
-\def\thetable{\@Roman\c@table}
+\def\thetable{\@arabic\c@table}
 \def\thechapter{\@arabic\c@chapter}
 \def\theequation{\arabic{equation}}
 \renewcommand{\figurename}{Fig.}
