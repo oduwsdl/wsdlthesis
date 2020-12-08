@@ -223,27 +223,22 @@
         \chapter*{#1}}
 
 \def\afterpreface{\cleardoublepage
+        \phantomsection
         \def\baselinestretch{1}\@normalsize
         \tableofcontents
         \cleardoublepage
+        \phantomsection
         \iftablespage
-                {\addvspace{10pt}
-                \let\saveaddvspace=\addvspace
-                \def\addvspace##1{}
-                \listoftables
-                \let\addvspace=\saveaddvspace
                 \addcontentsline{toc}{chapter}{\uppercase{List of Tables}}
-                \let\addvspace=\saveaddvspace}
+                \listoftables
                 \cleardoublepage
+                \phantomsection
         \fi
         \iffigurespage
-                {\addvspace{10pt}
-                \let\saveaddvspace=\addvspace
-                \def\addvspace##1{}
-                \listoffigures
                 \addcontentsline{toc}{chapter}{\uppercase{List of Figures}}
-                \let\addvspace=\saveaddvspace}
+                \listoffigures
                 \cleardoublepage
+                \phantomsection
         \fi
         \def\baselinestretch{1.3}\@normalsize
         \pagenumbering{arabic}
