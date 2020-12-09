@@ -1,0 +1,17 @@
+name: Test
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    name: Test in Docker
+    steps:
+      - name: Checkout the Code
+        uses: actions/checkout@v2
+      - name: Build a Docker Image
+        run: docker image build -t oduwsdl/wsdlthesis .
+      - name: Run make in a Container for Testing
+        run: docker container run oduwsdl/wsdlthesis
