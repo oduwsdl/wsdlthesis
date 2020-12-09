@@ -14,4 +14,10 @@ jobs:
       - name: Build a Docker Image
         run: docker image build -t oduwsdl/wsdlthesis .
       - name: Run make in a Container for Testing
-        run: docker container run oduwsdl/wsdlthesis
+        run: docker container run --name=wsdlthesis oduwsdl/wsdlthesis
+      - name: Copy PDF Out from the Container
+        run: docker container cp wsdlthesis:/src/main.pdf ./
+      - Upload Generated PDF
+        uses: actions/upload-artifact@v2
+        with:
+          path: main.pdf
