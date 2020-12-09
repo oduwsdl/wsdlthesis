@@ -17,7 +17,7 @@ jobs:
         run: docker container run --name=wsdlthesis oduwsdl/wsdlthesis
       - name: Copy PDF Out from the Container
         run: docker container cp wsdlthesis:/src/main.pdf ./
-      - Upload Generated PDF
+      - name: Upload Generated PDF
         uses: actions/upload-artifact@v2
         with:
           path: main.pdf
