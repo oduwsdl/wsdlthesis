@@ -14,5 +14,4 @@ RUN apt update && apt-get install -y \
 
 COPY . /src
 
-ENTRYPOINT ["dumb-init", "--"]
 CMD ["make"]
