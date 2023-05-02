@@ -2,7 +2,7 @@
 
 This is a ready to use ODU thesis/dissertation LaTeX template, both for Master and PhD. 
 
-[MS template]{oduwsdl/wsdlthesis/UpdatedETDTemplates-2023-05-01}
+[MS template]{../UpdatedETDTemplates-2023-05-01}
 
 
 
