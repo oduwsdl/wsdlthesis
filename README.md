@@ -1,3 +1,11 @@
+# Latest ODU Thesis/Dissertation LaTeX Template - As of 2023-05-01 
+
+This is a ready to use ODU thesis/dissertation LaTeX template, both for Master and PhD. 
+
+[MS template]{oduwsdl/wsdlthesis/UpdatedETDTemplates-2023-05-01}
+
+
+
 # ODU WS-DL Thesis/Dissertation LaTeX Template
 
 [![Build Status](https://travis-ci.com/oduwsdl/wsdlthesis.svg?branch=master)](https://travis-ci.com/oduwsdl/wsdlthesis)
