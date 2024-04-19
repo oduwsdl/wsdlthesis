@@ -1,11 +1,8 @@
-# LATEST: ODU Thesis/Dissertation LaTeX Template
-*(last updated: April 2024)*
-
-The most recent ODU Thesis/Dissertation LaTeX Template, updated as of April 16, 2024, is available for access at https://github.com/oduwsdl/odusci-etd-template.
-
 # OUT OF DATE: ODU WS-DL Thesis/Dissertation LaTeX Template
-[![Build Status](https://travis-ci.com/oduwsdl/wsdlthesis.svg?branch=master)](https://travis-ci.com/oduwsdl/wsdlthesis)  
-*(last updated: May 2018)*
+
+**Important:** The template contained in this repository was last updated *May 2018*. The most recent template (approved by the College of Sciences in *April 2024*) is available at <https://github.com/oduwsdl/odusci-etd-template>
+
+## Summary
 
 This is a ready to use ODU thesis/dissertation LaTeX template, both for Master and PhD, tailored to suit the needs of the [WS-DL Research Group](https://ws-dl.cs.odu.edu/).
 The template is based on [the Old Dominion University Guide for the Preparation of Theses and Dissertation](https://www.odu.edu/content/dam/odu/offices/graduate-studies/thesis-dissertation/docs/thesis_dissertation_guide.pdf)
