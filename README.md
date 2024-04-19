@@ -1,11 +1,6 @@
-# Latest ODU Thesis/Dissertation LaTeX Template - As of 2023-05-01 
+# Latest ODU Thesis/Dissertation LaTeX Template - As of 2024-04-16
 
-This is the lates ODU thesis/dissertation LaTeX template as of 2023-05-01, both for Master and PhD. 
-
-* [MS LaTeX template](../UpdatedETDTemplates-2023-05-01/CoS_ETD_Template%20_Masters_May1st2023.zip)
-* [PhD LaTeX template](../UpdatedETDTemplates-2023-05-01/CoS_ETD_Template_PhD_May1st2023.zip)
-
-The above zip files include a style file (CoS_MS/Phd.sty), sample main LaTeX file (main.tex), and a sample BibTeX file (ref.bib).  
+The most recent ODU Thesis/Dissertation LaTeX Template, updated as of April 16, 2024, is available for access at https://github.com/oduwsdl/odusci-etd-template.
 
 # ODU WS-DL Thesis/Dissertation LaTeX Template
 
